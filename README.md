@@ -18,9 +18,9 @@ To use this template, you should have PostgreSQL installed and database/schema s
 4. Run `npx prisma db push`. This will connect your db and prisma schema.
 5. (Optional) You can open prisma studio by running `npx prisma studio` and add dummy data there.
 6. Run `npx prisma generate`. This will generate your Prisma Client based on your data models. You will need to run this every time your schema is updated.
-7. Run `npm run dev` to start the app on localhost.
+7. Run `npm run dev` to start the development server.
 
 ### Client
 
 1. Run `npm install`
-2. Run `npm start`
+2. Run `npm start` to start the app on localhost.
